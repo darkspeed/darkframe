@@ -15,3 +15,60 @@ body {
   text-align: right;
   font-family: sans-serif;
 }
+.activate {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+  background-color: #342460;
+  border-radius: 100px;
+  box-shadow: -3px 3px #251b42;
+}
+.activate:hover {
+  cursor: pointer;
+}
+.activate-img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.settings {
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  float: right;
+  text-align: right;
+  color: #4c18d6;
+  font-size: 18pt;
+}
+.settings:hover {
+  color: #510fff;
+  cursor: pointer;
+}
+.settings-menu {
+  height: 100%;
+  width: 0%;
+  z-index: 1;
+  transition: 0.5s;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #342460;
+}
+.settings-close {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  font-family: sans-serif;
+  color: #4c18d6;
+  font-size: 18pt;
+}
+.settings-close:hover {
+  color: #510fff;
+  cursor: pointer;
+}

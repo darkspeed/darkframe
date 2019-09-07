@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>darkframe</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="../js/controllers/index_controller.js"></script>
   </head>
   <body>
     <div class='title'>
@@ -12,6 +13,17 @@
         <div class='subtitle'>
           for darkspeed 3.
         </div>
+    </div>
+    <div class='activate'>
+      <img src="../../assets/darkspeed.svg" class='activate-img'/>
+    </div>
+    <div class='settings' onclick="expand_settings()">
+      Settings
+    </div>
+    <div class='settings-menu' id="settings">
+      <div class='settings-close' onclick="collapse_settings()">
+        x
+      </div>
     </div>
   </body>
 </html>

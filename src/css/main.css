@@ -4,14 +4,14 @@ body {
 .title {
   color: #510fff;
   font-size: 35pt;
-  text-align: center;
+  text-align: right;
   font-family: sans-serif;
 }
 .subtitle {
   color: #4c18d6;
-  font-size: 20pt;
+  font-size: 18pt;
   width: 50%;
   float: right;
-  text-align: left;
+  text-align: right;
   font-family: sans-serif;
 }

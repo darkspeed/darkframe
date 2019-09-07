@@ -1,0 +1,17 @@
+body {
+  background-color: #091C24;
+}
+.title {
+  color: #510fff;
+  font-size: 35pt;
+  text-align: center;
+  font-family: sans-serif;
+}
+.subtitle {
+  color: #4c18d6;
+  font-size: 20pt;
+  width: 50%;
+  float: right;
+  text-align: left;
+  font-family: sans-serif;
+}

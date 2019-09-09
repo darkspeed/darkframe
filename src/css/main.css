@@ -25,9 +25,6 @@ body {
   border-radius: 100px;
   box-shadow: -3px 3px #251b42;
 }
-.activate:hover {
-  cursor: pointer;
-}
 .activate-img {
   width: 180px;
   height: 180px;
@@ -47,7 +44,6 @@ body {
 }
 .settings:hover {
   color: #510fff;
-  cursor: pointer;
 }
 .settings-menu {
   height: 100%;
@@ -67,8 +63,41 @@ body {
   font-family: sans-serif;
   color: #4c18d6;
   font-size: 18pt;
+  width: 18px;
+  height: 18px;
 }
 .settings-close:hover {
   color: #510fff;
+  cursor: pointer;
+}
+.settings-item {
+  width: inherit;
+  height: 50px;
+  background-color: #FFFFFF;
+  transition: 0.5s;
+  border-color: #510fff;
+  border-width: 1px;
+  border-top-width: 0.5px;
+  border-style: solid;
+}
+.settings-item-borderless {
+  width: inherit;
+  height: 50px;
+  background-color: #FFFFFF;
+  transition: 0.5s;
+}
+.settings-text {
+  font-family: sans-serif;
+  color: #4c18d6;
+  font-size: 18pt;
+  height: auto;
+  width: 25%;
+  text-align: right;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  float: right;
+}
+.clickable:hover {
   cursor: pointer;
 }

@@ -10,8 +10,6 @@ body {
 .subtitle {
   color: #4c18d6;
   font-size: 18pt;
-  width: 50%;
-  float: right;
   text-align: right;
   font-family: sans-serif;
 }
@@ -19,11 +17,14 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  left: 300px;
-  bottom: 150px;
+  left: 37.5%;
+  top: 30%;
   background-color: #342460;
   border-radius: 100px;
   box-shadow: -3px 3px #251b42;
+}
+.hoverable:hover {
+  color: #510fff;
 }
 .activate-img {
   width: 180px;
@@ -41,9 +42,6 @@ body {
   text-align: right;
   color: #4c18d6;
   font-size: 18pt;
-}
-.settings:hover {
-  color: #510fff;
 }
 .settings-menu {
   height: 100%;
@@ -72,21 +70,22 @@ body {
 }
 .settings-item {
   width: inherit;
-  height: 50px;
-  background-color: #FFFFFF;
-  transition: 0.5s;
+  height: 48px;
+  background-color: #342460;
   border-color: #510fff;
   border-width: 1px;
+  border-right-width: 2px;
+  border-left-width: 2px;
   border-top-width: 0.5px;
   border-style: solid;
 }
 .settings-item-borderless {
   width: inherit;
   height: 50px;
-  background-color: #FFFFFF;
+  background-color: #4c18d6;
   transition: 0.5s;
 }
-.settings-text {
+.settings-top {
   font-family: sans-serif;
   color: #4c18d6;
   font-size: 18pt;
@@ -94,10 +93,31 @@ body {
   width: 25%;
   text-align: right;
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 10px;
+  float: right;
+}
+.settings-configuration {
+  font-family: sans-serif;
+  color: #4c18d6;
+  font-size: 18pt;
+  height: auto;
+  width: 25%;
+  text-align: right;
+  position: absolute;
+  top: 60px;
+  right: 85px;
   float: right;
 }
 .clickable:hover {
   cursor: pointer;
+}
+.vertical-divider {
+  right: 50%;
+  float: right;
+  height: inherit;
+  width: 5px;
+  position: relative;
+  background-color: #000000;
+  z-index: 4;
 }

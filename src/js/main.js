@@ -17,7 +17,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('src/views/index.html')
-  win.setResizable(false);
+  //win.setResizable(false);
   // Open the DevTools.
   //win.webContents.openDevTools()
 

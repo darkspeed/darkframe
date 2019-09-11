@@ -17,32 +17,42 @@
     <div class='activate clickable' onclick="activate">
       <img src="../../assets/darkspeed.svg" class='activate-img'/>
     </div>
-    <div class='settings clickable' onclick="expand_settings()">
+    <div class='settings clickable hoverable' onclick="expand_settings()">
       settings
     </div>
     <div class='settings-menu' id="settings">
-      <div class="settings-item" id="settings_item_1" style='transition: 0.05s'>
-        <div class="settings-text clickable" onclick="collapse_settings()">
-          close
+      <div class="settings-item" id="settings_item_1" style='border-top-width: 2px;'>
+        <div class="settings-top clickable" onclick="collapse_settings()">
+            close
         </div>
       </div>
-      <div class="settings-item" id="settings_item_2" style='transition: 0.1s'>
+      <div class="settings-item" id="settings_item_2">
+        <div class="settings-configuration clickable" onclick="expand_configuration()">
+          configuration
+        </div>
       </div>
-      <div class="settings-item" id="settings_item_3" style='transition: 0.15s'>
+      <div class="settings-item" id="settings_item_3">
       </div>
-      <div class="settings-item" id="settings_item_4" style='transition: 0.2s'>
+      <div class="settings-item" id="settings_item_4">
       </div>
-      <div class="settings-item" id="settings_item_5" style='transition: 0.25s'>
+      <div class="settings-item" id="settings_item_5">
       </div>
-      <div class="settings-item" id="settings_item_6" style='transition: 0.3s'>
+      <div class="settings-item" id="settings_item_6">
       </div>
-      <div class="settings-item" id="settings_item_7" style='transition: 0.35s'>
+      <div class="settings-item" id="settings_item_7">
       </div>
-      <div class="settings-item" id="settings_item_8" style='transition: 0.4s'>
+      <div class="settings-item" id="settings_item_8">
       </div>
-      <div class="settings-item" id="settings_item_9" style='transition: 0.45'>
+      <div class="settings-item" id="settings_item_9">
       </div>
-      <div class="settings-item" id="settings_item_10" style='transition: 0.5s'>
+      <div class="settings-item" id="settings_item_10" style="border-bottom-width: 2px;">
+      </div>
+    </div>
+    <div class='settings-menu' id="configuration">
+      <div class="settings-item" id="config_item_1">
+        <div class'settings-top clickable' onclick="expand_settings()">
+          back
+        </div>
       </div>
     </div>
   </body>
